@@ -60,7 +60,7 @@ createApp(App).use(VueVueVafa).mount('#app')
 
 ## 📖 Documentation
 
-Kunjungi [dokumentasi lengkap](https://rbin01yuh.github.io/vuevuefafa) untuk panduan penggunaan.
+Kunjungi [dokumentasi lengkap](DOCUMENTATION.md) untuk panduan penggunaan.
 
 ## 🧩 Components
 
