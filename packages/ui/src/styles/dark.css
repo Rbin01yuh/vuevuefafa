@@ -1,0 +1,151 @@
+/**
+ * vuevuefafa Dark Mode Tokens
+ * Apply .vvv-dark class to enable dark mode
+ */
+
+.vvv-dark {
+  /* ========================================
+   * DARK COLOR OVERRIDES
+   * ======================================== */
+
+  /* Primary - slightly brighter for dark backgrounds */
+  --vvv-primary-50: #1e3a5f;
+  --vvv-primary-100: #1e4976;
+  --vvv-primary-200: #1e5a8d;
+  --vvv-primary-300: #3b82f6;
+  --vvv-primary-400: #60a5fa;
+  --vvv-primary-500: #93c5fd;
+  --vvv-primary-600: #bfdbfe;
+  --vvv-primary-700: #dbeafe;
+
+  /* Neutral - inverted for dark mode */
+  --vvv-neutral-50: #18181b;
+  --vvv-neutral-100: #27272a;
+  --vvv-neutral-200: #3f3f46;
+  --vvv-neutral-300: #52525b;
+  --vvv-neutral-400: #71717a;
+  --vvv-neutral-500: #a1a1aa;
+  --vvv-neutral-600: #d4d4d8;
+  --vvv-neutral-700: #e4e4e7;
+  --vvv-neutral-800: #f4f4f5;
+  --vvv-neutral-900: #fafafa;
+  --vvv-neutral-950: #ffffff;
+
+  /* Success */
+  --vvv-success-50: #052e16;
+  --vvv-success-100: #14532d;
+  --vvv-success-500: #22c55e;
+  --vvv-success-600: #4ade80;
+  --vvv-success-700: #86efac;
+
+  /* Warning */
+  --vvv-warning-50: #451a03;
+  --vvv-warning-100: #78350f;
+  --vvv-warning-500: #f59e0b;
+  --vvv-warning-600: #fbbf24;
+  --vvv-warning-700: #fcd34d;
+
+  /* Danger */
+  --vvv-danger-50: #450a0a;
+  --vvv-danger-100: #7f1d1d;
+  --vvv-danger-500: #ef4444;
+  --vvv-danger-600: #f87171;
+  --vvv-danger-700: #fca5a5;
+
+  /* ========================================
+   * DARK SHADOW OVERRIDES
+   * ======================================== */
+
+  --vvv-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --vvv-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.3);
+  --vvv-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --vvv-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+  --vvv-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+
+  /* ========================================
+   * DARK COMPONENT OVERRIDES
+   * ======================================== */
+
+  /* Focus Ring */
+  --vvv-focus-ring-color: var(--vvv-primary-400);
+
+  /* Background */
+  --vvv-bg-base: var(--vvv-neutral-950);
+  --vvv-bg-surface: var(--vvv-neutral-900);
+  --vvv-bg-elevated: var(--vvv-neutral-800);
+  --vvv-bg-muted: var(--vvv-neutral-800);
+
+  /* Text */
+  --vvv-text-base: var(--vvv-neutral-100);
+  --vvv-text-muted: var(--vvv-neutral-400);
+  --vvv-text-inverted: var(--vvv-neutral-900);
+
+  /* Border */
+  --vvv-border-base: var(--vvv-neutral-700);
+  --vvv-border-focus: var(--vvv-primary-400);
+}
+
+/* Support prefers-color-scheme for auto dark mode */
+@media (prefers-color-scheme: dark) {
+  .vvv-auto {
+    /* Same as .vvv-dark */
+    --vvv-primary-50: #1e3a5f;
+    --vvv-primary-100: #1e4976;
+    --vvv-primary-200: #1e5a8d;
+    --vvv-primary-300: #3b82f6;
+    --vvv-primary-400: #60a5fa;
+    --vvv-primary-500: #93c5fd;
+    --vvv-primary-600: #bfdbfe;
+    --vvv-primary-700: #dbeafe;
+
+    --vvv-neutral-50: #18181b;
+    --vvv-neutral-100: #27272a;
+    --vvv-neutral-200: #3f3f46;
+    --vvv-neutral-300: #52525b;
+    --vvv-neutral-400: #71717a;
+    --vvv-neutral-500: #a1a1aa;
+    --vvv-neutral-600: #d4d4d8;
+    --vvv-neutral-700: #e4e4e7;
+    --vvv-neutral-800: #f4f4f5;
+    --vvv-neutral-900: #fafafa;
+    --vvv-neutral-950: #ffffff;
+
+    --vvv-success-50: #052e16;
+    --vvv-success-100: #14532d;
+    --vvv-success-500: #22c55e;
+    --vvv-success-600: #4ade80;
+    --vvv-success-700: #86efac;
+
+    --vvv-warning-50: #451a03;
+    --vvv-warning-100: #78350f;
+    --vvv-warning-500: #f59e0b;
+    --vvv-warning-600: #fbbf24;
+    --vvv-warning-700: #fcd34d;
+
+    --vvv-danger-50: #450a0a;
+    --vvv-danger-100: #7f1d1d;
+    --vvv-danger-500: #ef4444;
+    --vvv-danger-600: #f87171;
+    --vvv-danger-700: #fca5a5;
+
+    --vvv-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --vvv-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.3);
+    --vvv-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --vvv-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+    --vvv-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+
+    --vvv-focus-ring-color: var(--vvv-primary-400);
+
+    --vvv-bg-base: var(--vvv-neutral-950);
+    --vvv-bg-surface: var(--vvv-neutral-900);
+    --vvv-bg-elevated: var(--vvv-neutral-800);
+    --vvv-bg-muted: var(--vvv-neutral-800);
+
+    --vvv-text-base: var(--vvv-neutral-100);
+    --vvv-text-muted: var(--vvv-neutral-400);
+    --vvv-text-inverted: var(--vvv-neutral-900);
+
+    --vvv-border-base: var(--vvv-neutral-700);
+    --vvv-border-focus: var(--vvv-primary-400);
+  }
+}

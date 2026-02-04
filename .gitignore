@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage
+
+# Storybook
+storybook-static
+
+# VitePress
+packages/docs/.vitepress/cache
+packages/docs/.vitepress/dist
+
+# Playwright
+playwright-report
+test-results
+
+# Misc
+*.tgz
+.husky/_

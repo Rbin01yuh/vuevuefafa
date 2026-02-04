@@ -1,0 +1,8 @@
+export { default as VTabs } from './VTabs.vue'
+export { default as VTabList } from './VTabList.vue'
+export { default as VTab } from './VTab.vue'
+export { default as VTabPanels } from './VTabPanels.vue'
+export { default as VTabPanel } from './VTabPanel.vue'
+export type { VTabsProps, TabsOrientation } from './VTabs.vue'
+export type { VTabProps } from './VTab.vue'
+export type { VTabPanelProps } from './VTabPanel.vue'

@@ -1,0 +1,70 @@
+{
+  "name": "vuevuefafa",
+  "version": "0.0.0",
+  "description": "Production-ready Vue 3 UI Kit with accessible, customizable components",
+  "keywords": [
+    "vue",
+    "vue3",
+    "ui-kit",
+    "component-library",
+    "design-system",
+    "typescript",
+    "tailwindcss",
+    "accessible"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rbin01yuh/vuevuefafa.git"
+  },
+  "homepage": "https://github.com/Rbin01yuh/vuevuefafa",
+  "bugs": {
+    "url": "https://github.com/Rbin01yuh/vuevuefafa/issues"
+  },
+  "type": "module",
+  "main": "./dist/vuevuefafa.umd.js",
+  "module": "./dist/vuevuefafa.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vuevuefafa.es.js",
+      "require": "./dist/vuevuefafa.umd.js"
+    },
+    "./styles": "./dist/style.css",
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/test-utils": "^2.4.4",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.1",
+    "vitest": "^1.2.2",
+    "vue": "^3.4.15",
+    "vue-tsc": "^2.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "vue-tsc --noEmit"
+  }
+}
